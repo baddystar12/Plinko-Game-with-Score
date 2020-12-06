@@ -89,12 +89,12 @@ function draw() {
           particle = null;
           if(turn>=5) gameState = "end";
         }
-        if(particle.body.position.x>=300&& particle.body.position.x<600){
+        else if (particle.body.position.x>=300&& particle.body.position.x<600){
           score = score+100;
           particle = null;
           if(turn>=5) gameState = "end";
         }
-        if(particle.body.position.x>=600&& particle.body.position.x<900){
+        else {
           score = score+200;
           particle = null;
           if(turn>=5) gameState = "end";
