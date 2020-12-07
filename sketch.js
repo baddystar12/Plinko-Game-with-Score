@@ -12,9 +12,6 @@ var gameState = "play";
 var divisionHeight=300;
 var score =0;
 
-function preload(){
-restartImage = loadImage("restart.png");
-}
 function setup() {
   createCanvas(900, 800);
   engine = Engine.create();
