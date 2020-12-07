@@ -65,6 +65,7 @@ function draw() {
   text("200", 680, 780);
   text("200",760,780);
   text("200", 840, 780);
+  text("Turns:"+turn, 830,30);
   
    for (var i = 0; i < plinkos.length; i++) {
      plinkos[i].display(); 
@@ -97,6 +98,7 @@ function draw() {
     fill("white");
     text("Game Over!", 450, 400);
    }
+   ground.display();
 }
 
 function mousePressed(){
